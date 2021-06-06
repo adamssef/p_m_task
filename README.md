@@ -19,9 +19,9 @@ Tests are here to check if the database is corect. It uses PhpUnit. To run all o
 1. Filtering and importing data from MySQL db:
    ```
    php bin/console app:import-json-data-to-db
+
   
-  
-  2.Shows the table with product info together with some performance information
+2.Shows the table with product info together with some performance information
    ```
     php bin/console app:count-products-per-category
    ```
